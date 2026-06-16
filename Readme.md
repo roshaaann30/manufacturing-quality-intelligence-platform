@@ -95,7 +95,7 @@ outputs/
 powerbi/
 python/
 SQL/
-Screenshots/
+screenshots/
 README.md
 ```
 
@@ -105,16 +105,16 @@ README.md
 
 ### Executive Overview
 
-![Executive Overview](Screenshots/Executive_Overview.png)
+![Executive Overview](screenshots/Executive_Overview.png)
 
 ### Audit Analytics
 
-![Audit Analytics](Screenshots/Audit_Analytics.png)
+![Audit Analytics](screenshots/Audit_Analytics.png)
 
 ### Supplier Performance
 
-![Supplier Performance](Screenshots/Supplier_Performance.png)
+![Supplier Performance](screenshots/Supplier_Performance.png)
 
 ### Supplier Risk Intelligence
 
-![Supplier Risk Intelligence](Screenshots/Supplier_Risk_Intelligence.png)
+![Supplier Risk Intelligence](screenshots/Supplier_Risk_Intelligence.png)
