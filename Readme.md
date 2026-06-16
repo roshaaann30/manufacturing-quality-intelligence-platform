@@ -86,7 +86,41 @@ Business Decision Support
 * Implemented data quality validation pipelines
 * Built an end-to-end analytics workflow
 
+
+## 💼 Business Value Delivered
+
+This platform enables organizations to:
+
+- Identify high-risk suppliers
+- Monitor manufacturing defects
+- Improve supplier performance
+- Reduce operational risk
+- Generate automated business insights
+- Support data-driven decision making
+
 ---
+
+## 🛠 Skills Demonstrated
+
+- PostgreSQL
+- SQL
+- Python
+- Pandas
+- SQLAlchemy
+- Data Cleaning
+- Data Validation
+- Data Analysis
+- Risk Analytics
+- Business Intelligence
+- Data Visualization
+- Power BI
+- Dashboard Development
+- KPI Monitoring
+- DAX
+- Data Integration
+- ETL Pipeline
+
+
 
 ## 📂 Repository Structure
 
