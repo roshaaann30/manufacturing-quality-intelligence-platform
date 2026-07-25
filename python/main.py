@@ -1,12 +1,16 @@
-import pandas as pd
-from sqlalchemy import create_engine
+from data_loader import load_table
 
-engine = create_engine(
-    "postgresql+psycopg2://postgres:Roshan123@127.0.0.1:5432/quality_management"
-)
 
-query = "SELECT * FROM supplier_quality"
+def main():
 
-df = pd.read_sql(query, engine)
+    supplier_quality = load_table("supplier_quality")
 
-print(df.head())
+    print("\nSupplier Quality Dataset")
+    print("-" * 50)
+    print(supplier_quality.head())
+
+    print(f"\nTotal Records: {len(supplier_quality)}")
+
+
+if __name__ == "__main__":
+    main()
