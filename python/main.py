@@ -1,15 +1,17 @@
 from data_loader import load_table
+from supplier_risk_engine import calculate_risk_score
 
 
 def main():
 
     supplier_quality = load_table("supplier_quality")
 
-    print("\nSupplier Quality Dataset")
-    print("-" * 50)
+    supplier_quality = calculate_risk_score(supplier_quality)
+
     print(supplier_quality.head())
 
-    print(f"\nTotal Records: {len(supplier_quality)}")
+    print("\nRisk Category Distribution")
+    print(supplier_quality["RiskCategory"].value_counts())
 
 
 if __name__ == "__main__":
